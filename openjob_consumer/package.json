@@ -1,0 +1,19 @@
+{
+  "name": "openjob_consumer",
+  "version": "1.0.0",
+  "description": "OpenJob Consumer - RabbitMQ Email Notification Service",
+  "main": "src/consumer.js",
+  "scripts": {
+    "start": "node src/consumer.js",
+    "start:dev": "nodemon src/consumer.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.4.5",
+    "nodemailer": "^6.9.15",
+    "pg": "^8.13.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
